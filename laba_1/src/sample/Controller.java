@@ -9,7 +9,7 @@ package sample;
         import javafx.scene.control.Button;
         import javafx.scene.control.TextField;
         import javafx.scene.text.Text;
-        import BINAR.*;
+
 
 public class Controller {
 
@@ -37,7 +37,7 @@ public class Controller {
             @Override
             public void handle(ActionEvent event) {
                 String str=decimal.getText();
-                text.setText(Binar.toBinar(str));
+                text.setText(Binar.toBinary(str));
             }
         });
     }
